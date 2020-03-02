@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Que vamos a comer hoy?" />
+
+    <RadioGroup
+        android:id="@+id/comida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="241dp">
+
+        <RadioButton
+            android:id="@+id/radBtnTacos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tacos de pastor" />
+
+        <RadioButton
+            android:id="@+id/radBtnBoneless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boneless" />
+
+        <RadioButton
+            android:id="@+id/radBtnTamales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tamales" />
+
+        <RadioButton
+            android:id="@+id/radBtnMole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mole" />
+    </RadioGroup>
+
+</LinearLayout>
